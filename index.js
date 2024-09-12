@@ -6,7 +6,7 @@ const app=express();
 
 app.use(express.json());
 app.use(cors({
-    origin:["http://localhost:5173","https://gilded-kitten-a2e735.netlify.app/"]
+    origin: "https://gilded-kitten-a2e735.netlify.app/"
 }))
 
 const URL=process.env.URL;
