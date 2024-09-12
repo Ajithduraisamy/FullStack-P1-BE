@@ -9,6 +9,8 @@ app.use(cors({
     origin: "https://gilded-kitten-a2e735.netlify.app"
 }))
 
+require('dotenv').config();
+
 const URL=process.env.URL;
 
 let db;
