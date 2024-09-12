@@ -9,7 +9,7 @@ app.use(cors({
     origin:["http://localhost:5173","https://gilded-kitten-a2e735.netlify.app/"]
 }))
 
-const URL = "mongodb+srv://ajith0623:WCNnRqJMA9gvorE7@cluster0.rw6jcmo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const URL=process.env.URL;
 
 let db;
 
